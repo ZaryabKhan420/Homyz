@@ -39,14 +39,17 @@ const Hero = () => {
           <h1 className="text-6xl font-bold">Most Suitable</h1>
           <h1 className="text-6xl font-bold">Property</h1>
         </div>
-        <p className="text-secondary">
-          Find a variety of properties that suit you very easily. <br /> Forget
-          all difficulties in finding a residence for you.
+        <p className="text-secondary w-[100%] sm:[70%]">
+          Find a variety of properties that suit you very easily. Forget all
+          difficulties in finding a residence for you.
         </p>
 
-        <div className="flex justify-between items-center gap-2 sm:gap-5 px-2 sm:px-5 py-3 w-[100%] sm:w-[90%] bg-white rounded-md">
+        <div className="flex justify-between items-center gap-5 px-5 py-3 w-[100%] bg-white rounded-md">
           <FaLocationDot size={20} color={"#4066ff"} />
-          <input type="text" className="border-none outline-none text-black" />
+          <input
+            type="text"
+            className="border-none outline-none text-black w-[4rem]"
+          />
           <PrimaryButton children={"Search"} />
         </div>
         <div className="flex flex-wrap justify-start items-between gap-10">

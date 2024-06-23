@@ -40,7 +40,7 @@ const OurValue = () => {
   return (
     <section
       id="value"
-      className="grid grid-cols-1 lg:grid-cols-2 sm:gap-12 place-items-center"
+      className="grid grid-cols-1 lg:grid-cols-2 gap-12 place-items-center"
     >
       <div className="overflow-hidden rounded-t-[100rem] h-[25rem] sm:h-[30rem] lg:h-[35rem] w-[20rem ] xs:w-[25rem] sm:w-[30rem] lg:place-self-start ">
         <img src={valueImg} alt="value" loading="lazy" />
@@ -66,7 +66,7 @@ const OurValue = () => {
             return (
               <AccordionItem key={value.id} className="my-10" uuid={value.id}>
                 <AccordionItemHeading>
-                  <AccordionItemButton className="text-xl text-[#1F3E72] font-bold flex justify-between items-center">
+                  <AccordionItemButton className="text-xl text-[#1F3E72] font-bold flex justify-between items-center gap-5">
                     {value.icon}
                     <h2 className="text-xl font-bold"> {value.title}</h2>
 
