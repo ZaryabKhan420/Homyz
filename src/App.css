@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.mobile {
+  display: block !important;
+  left: 0% !important;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s !important;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    background: none !important;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #1f3e72 !important;
+}
